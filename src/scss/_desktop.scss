@@ -1,0 +1,33 @@
+.desktop-section {
+  background: url("https://cdn.wallpaperhub.app/cloudcache/b/d/7/6/4/b/bd764bb25d49a05105060185774ba14cd2c846f7.jpg")
+    no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+  .desktop-section__container {
+    display: flex;
+    padding: 1rem;
+
+    .desktop-section__container-apps {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      &--icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p {
+          width: 6rem;
+          padding: 2px;
+          color: white;
+          text-align: center;
+          text-shadow: 4px 3px 5px rgba(0, 0, 0, 1);
+          font-size: 0.8rem;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+      }
+    }
+  }
+}
