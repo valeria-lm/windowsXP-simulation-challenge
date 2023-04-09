@@ -1,0 +1,43 @@
+.desktop-section__taskbar {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: $dark-blue-color;
+  box-shadow: inset 0px 2px 5px 0px rgba(255, 255, 255, 0.3),
+    inset 0px -1px 5px 0px rgba(255, 255, 255, 0.3);
+
+  &--start {
+    display: flex;
+    align-items: center;
+    padding: 0.2rem 1.5rem 0.2rem 1rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    font-style: italic;
+    text-shadow: 3px 2px 4px rgb(0, 0, 0, 0.5);
+    background-color: $green-color;
+    border-radius: 0 0.5rem 1.3rem 0;
+    box-shadow: inset -8px 0px 10px 0px rgba(0, 0, 0, 0.5),
+      inset 0px 2px 3px 0px rgba(255, 255, 255, 0.8);
+
+    img {
+      width: 1.5rem;
+      height: 1.5rem;
+      margin-right: 0.2rem;
+    }
+  }
+
+  &--clock {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem 0 1rem;
+    font-size: 0.8rem;
+    background-color: $blue-color;
+    box-shadow: inset 4px 4px 2px 0px rgba(0,0,0,0.1);
+    border-left: 1px solid rgba(0, 0, 0, 0.5);
+
+    img {
+      width: 1.2rem;
+      height: 1.2rem;
+    }
+  }
+}

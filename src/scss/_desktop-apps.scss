@@ -3,6 +3,8 @@
     no-repeat;
   background-size: cover;
   height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
 
   .desktop-section__container {
     display: flex;
@@ -21,11 +23,11 @@
         p {
           width: 6rem;
           padding: 2px;
-          color: white;
+          color: $white-color;
           text-align: center;
-          text-shadow: 4px 3px 5px rgba(0, 0, 0, 1);
+          text-shadow: 3px 2px 4px rgba(0, 0, 0, 1),
+            3px 2px 4px rgba(0, 0, 0, 1);
           font-size: 0.8rem;
-          font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
       }
     }

@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./public/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/d8433bcd8c.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Windows XP Simulation</title>
   </head>
   <body>
@@ -22,7 +26,49 @@
         </div>
       </section>
 
-      <section class="desktop-section" id="desktop" style="display: none;">
+      <section class="login-section" id="login" style="display: none">
+        <div class="login-section__header"></div>
+
+        <div class="login-section__container">
+          <div class="login-section__container--logo">
+            <img
+              src="http://d1bomuyprudxkd.cloudfront.net/covers2015/e2l_icons/c0402f.png"
+            />
+            <p>To begin, click your user name</p>
+          </div>
+
+          <div class="login-section__container--line"></div>
+
+          <div class="login-section__container--password">
+            <img
+              src="https://images.pexels.com/photos/350349/pexels-photo-350349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            />
+
+            <div class="password__data">
+              <p>Valeria</p>
+              <label>Type your password</label>
+              <div>
+                <input type="password" />
+                <button id="forward-btn"><i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="login-section__footer">
+          <div class="login-section__footer--turnoff">
+            <button><i class="fa-solid fa-power-off"></i></button>
+            <p>Turn off computer</p>
+          </div>
+
+          <p class="login-section__footer--info">
+            After you log on, you can add or change accounts. Just go to Control
+            Panel and click User Accounts.
+          </p>
+        </div>
+      </section>
+
+      <section class="desktop-section" id="desktop" style="display: none">
         <div class="desktop-section__container">
           <div class="desktop-section__container-apps">
             <div class="desktop-section__container-apps--icon">
@@ -63,7 +109,18 @@
           </div>
         </div>
 
-        <div class="desktop-section__taskbar"></div>
+        <div class="desktop-section__taskbar">
+          <div class="desktop-section__taskbar--start">
+            <img src="https://image.ibb.co/bJXnUk/1783_windows_logo_copy.png" />
+            <p>start</p>
+          </div>
+
+          <div class="desktop-section__taskbar--clock">
+            <img src="https://image.ibb.co/d1cJ25/unnamed.png" />
+            <img src="https://image.ibb.co/b6bxUk/bluetooth_logo.png" />
+            <p>7:00 AM</p>
+          </div>
+        </div>
       </section>
     </main>
 
